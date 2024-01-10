@@ -9,34 +9,50 @@
         <!-- Set reponsive -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <!-- Set font poppins from gg font-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <!-- Set font poppins from gg font -->
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> -->
 
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> -->
+
+        <style>
+            @font-face {
+                font-family: Poppins;
+                src: url("Poppins/Poppins-Regular.ttf");
+            }
+    
+            * {
+                font-family: Poppins;
+            }
+        </style>
     </head>
 
     <body>
         <div id="heading">
-            <div id="logo1">
-                <img id="logo1-svg"src="vector/logo1.svg">
-            </div>
-
-            <div id="menu">
-                <img src="vector/menu.svg">
-            </div>
-
-            <div id="menu-desktop">
-                <p class="small-white-font card">Furniture <img id="furniture_icon" src="vector/furniture.svg" style="height: 7px;"></p>
-                <p class="small-white-font card">Shop</p>
-                <p class="small-white-font card">About us</p>
-                <p class="small-white-font card">Contact</p>
-            </div>
+            <!-- <div id="header"> -->
+                <div id="logo1">
+                    <img id="logo1-svg"src="vector/logo1.svg">
+                </div>
+    
+                <!-- <div id="menu"> -->
+                    <img id="menu" src="vector/menu.svg">
+                <!-- </div> -->
+    
+                <div id="menu-desktop">
+                    <p class="small-white-font card">Furniture <img id="furniture_icon" src="vector/furniture.svg" style="height: 7px;"></p>
+                    <p class="small-white-font card">Shop</p>
+                    <p class="small-white-font card">About us</p>
+                    <p class="small-white-font card">Contact</p>
+                </div>
+            <!-- </div> -->
 
             <div class="heading-container">
-                <p class="big-white-font">Make Your Interior More<br>Minimaistic & Modern</p>
+                <p class="big-white-font"><strong>Make Your Interior More<br>Minimaistic & Modern</strong></p>
                 <div id="small-title">
-                    <p class="small-white-font" style="text-align: center;">Bringing interiors to life, understanding the person or people living in a home is far greater need in design.</p>
+                    <p class="small-white-font1" style="text-align: center;">Bringing interiors to life, understanding the person or people living in a home is far greater need in design.</p>
                 </div>
             </div>
 
@@ -47,35 +63,39 @@
             
 
             <div class="container2">
-                
+
+                <p class="title-black-font first-heading"><strong>Why choosing us</strong></p>
+
+                <div id="tags">
                 <div id="first-tag" class="tag">
-                    <p class="first-heading title-black-font">Why choosing us</p>
                     <img class="logo-tag-svg" src="vector/logo-tag1.svg">
-                    <p class="medium-black-font">Professionalism</p>
+                    <p class="medium-black-font" style="margin: 0;"><strong>Professionalism</strong></p>
                     <p>We deliver the final work with great professional way.</p>
-                    <p class="pink-font">more info</p>
+                    <p class="pink-font" style="margin: 0;">more info</p>
                 </div>
                 
     
                 <div class="tag">
                     <img class="logo-tag-svg" src="vector/logo-tag2.svg">
-                    <p class="medium-black-font">Smooth workflow</p>
+                    <p class="medium-black-font" style="margin: 0;"><strong>Smooth workflowv</strong></p>
                     <p>We provide the most easy smoth workflow of interior design.</p>
-                    <p class="pink-font">more info</p>
+                    <p class="pink-font" style="margin: 0;">more info</p>
                 </div>
     
                 <div class="tag">
                     <img class="logo-tag-svg" src="vector/logo-tag3.svg">
-                    <p class="medium-black-font">Trusted Platform</p>
+                    <p class="medium-black-font" style="margin: 0;"><strong>Trusted Platform</strong></p>
                     <p>People trust us since we openend the company</p>
-                    <p class="pink-font">more info</p>
+                    <p class="pink-font" style="margin: 0;">more info</p>
                 </div>
     
                 <div class="tag">
                     <img class="logo-tag-svg" src="vector/logo-tag4.svg">
-                    <p class="medium-black-font">Qualified employee</p>
+                    <p class="medium-black-font" style="margin: 0;"><strong>Qualified employee</strong></p>
                     <p>Our employees are the best of the field from the city</p>
-                    <p class="pink-font">more info</p>
+                    <p class="pink-font" style="margin: 0;">more info</p>
+                </div>
+
                 </div>
             </div>
         <!-- </div> -->
@@ -86,24 +106,24 @@
             </div>
             <img id="line" src="vector/line.svg">
             <div id="visualize-content" class="content">
-                <p id="visual-title" class="title-black-font">Visualize your ideas with us</p>
+                <p id="visual-title" class="title-black-font"><strong>Visualize your ideas with us</strong></p>
                 <p>We are ready to help you build and also realize the room design that you dream of, with our experts and also the best category recommendations from us</p>
                 <div class="p-list">
                     <p>Modern</p>
-                    <img src="vector/minus.svg">
+                    <img class="mark" src="vector/minus.svg">
                 </div>
                 <p class="light-black-font">Modern design is a term in the design world that refers to a house with a clean design, simple color choices, the use of materials including metal, glass, and steel, and is usually accompanied by clean lines.</p>
                 <div class="p-list">
                     <p>Contemporary</p>
-                    <img src="vector/plus.svg">
+                    <img class="mark"src="vector/plus.svg">
                 </div>
                 <div class="p-list">
                     <p>Minimalis</p>
-                    <img src="vector/plus.svg">
+                    <img class="mark"src="vector/plus.svg">
                 </div>
                 <div class="p-list">
                     <p>Industrial</p>
-                    <img src="vector/plus.svg">
+                    <img class="mark"src="vector/plus.svg">
                 </div>
                 <p class="pink-font">See more catogory</p>
             </div>
@@ -112,14 +132,14 @@
         </div>
 
         <div id="product" class="container">
-            <p class="set-center-title title-black-font">FEATURED PRODUCT</p>
+            <p class="set-center-title title-black-font" style="margin-bottom: 0;"><strong>FEATURED PRODUCT</strong></p>
 
             <div class="product-item">
                 <img class="product-picture" src="asset/product1.jpg">
                 <div>
-                    <p class="medium-black-font">PRODUCT</p>
+                    <p class="medium-black-font">Product</p>
                     <p class="gray-font">Catagory</p>
-                    <img src="vector/five-stars.svg">
+                    <img class="stars" src="vector/five-stars.svg">
                     <p class="text1">IDR 795.000</p>
                     <p class="text2">$Price</p>
                 </div>
@@ -128,9 +148,9 @@
             <div class="product-item">
                 <img class="product-picture" src="asset/product2.jpg">
                 <div>
-                    <p class="medium-black-font">PRODUCT</p>
+                    <p class="medium-black-font">Product</p>
                     <p class="gray-font">Catagory</p>
-                    <img src="vector/five-stars.svg">
+                    <img class="stars" src="vector/five-stars.svg">
                     <p class="text1">IDR 595.000</p>
                     <p class="text2">$Price</p>
                 </div>
@@ -139,9 +159,9 @@
             <div class="product-item">
                 <img class="product-picture" src="asset/product3.jpg">
                 <div>
-                    <p class="medium-black-font">PRODUCT</p>
+                    <p class="medium-black-font">Product</p>
                     <p class="gray-font">Catagory</p>
-                    <img src="vector/five-stars.svg">
+                    <img class="stars" src="vector/five-stars.svg">
                     <p class="text1">IDR 2.555.000</p>
                     <p class="text2">$Price</p>
                 </div>
@@ -150,9 +170,9 @@
             <div class="product-item">
                 <img class="product-picture" src="asset/product4.jpg">
                 <div>
-                    <p class="medium-black-font">PRODUCT</p>
+                    <p class="medium-black-font">Product</p>
                     <p class="gray-font">Catagory</p>
-                    <img src="vector/five-stars.svg">
+                    <img class="stars" src="vector/five-stars.svg">
                     <p class="text1">IDR 1.500.000</p>
                     <p class="text2">$Price</p>
                 </div>
@@ -161,40 +181,40 @@
 
         <div class="container" id="comment-container" >
             <!-- <p class="set-center-title title-black-font">What they say about our services</p> -->
-            <p class="set-center-title title-black-font">What they say about our services</p>
+            <p class="set-center-title title-black-font"><strong>What they say about our services</strong></p>
             <div class="comment">
-                <p class="medium-black-font margin-0">Best planning service</p>
+                <p class="medium-black-font margin-0"><strong>Best planning service</strong></p>
                 <p>I had fantastic experience at shady rhymes with pax planner, shady rhymes was so helpful and friendly and went above and beyond to help me configure my perfect walk in wardobe room.</p>
                 <div class="person-section">
                     <img class="person-avatar" src="asset/person1.jpg">
                     <div style="margin-left: 10px;">
-                        <p style="margin: 0;" class="medium-black-font">John doe</p>
+                        <p style="margin: 0;" class="medium-black-font"><strong>John doe</strong></p>
                         <p style="margin: 0">Architect in agung podomoro land</p>
                     </div>
                 </div>
             </div>
 
             <div class="comment">
-                <p class="medium-black-font margin-0">Flexible and reliable</p>
+                <p class="medium-black-font margin-0"><strong>Flexible and reliable</strong></p>
                 <p>Terrific work from beginning to end can work any angle from minimal help to complete project handling professional without a doubt!  Love!</p>
                 <div class="person-section">
                     <img class="person-avatar" src="asset/person2.jpg">
                     <div style="margin-left: 10px;">
-                        <p style="margin: 0;" class="medium-black-font">John doe</p>
-                        <p style="margin: 0">Architect in agung podomoro land</p>
+                        <p style="margin: 0;" class="medium-black-font"><strong>Woods Moniq</strong></p>
+                        <p style="margin: 0">Freelancer</p>
                     </div>
                 </div>
             
             </div>
 
             <div class="comment">
-                <p class="medium-black-font  margin-0">Solution innovative</p>
+                <p class="medium-black-font  margin-0"><strong>Solution innovative</strong></p>
                 <p>I loved working with Darla shady rhymes for about 2 years and highly recommend anyone looking for an interior designer agency who brings creativity but designs something that fits YOU and your style.</p>
                 <div class="person-section">
                     <img class="person-avatar" src="asset/person3.jpg">
                     <div style="margin-left: 10px;">
-                        <p style="margin: 0;" class="medium-black-font">John doe</p>
-                        <p style="margin: 0">Architect in agung podomoro land</p>
+                        <p style="margin: 0;" class="medium-black-font"><strong>Denis Rara</strong></p>
+                        <p style="margin: 0">Architect at BPPLU</p>
                     </div>
                 </div>
             
@@ -206,12 +226,12 @@
                 <img id="img2" src="asset/img2.jpg">
             </div>
             <div id="make-content" class="content">
-                <p class="title-black-font">Make your room feel homey</p>
+                <p class="title-black-font"><strong>Make your room feel homey</strong></p>
                 <p>We help people not only to make the room at home better, but we help people to feel a more homey and comfortable room, you don’t have to worry about the result because of these interiors are made by people who are professionals in their dields with an elegant and lucuriois style and with premium quality materials 
                     <br><br><br>Contact us if you are interested in working with us</p>
                     <div id="text-input">
                         <p class="pink-font">Insert your email address</p>
-                        <div>
+                        <div id="img-button">
                             <img id="button" src="vector/button.svg">
                         </div>
                     </div>
