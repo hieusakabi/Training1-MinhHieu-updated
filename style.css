@@ -243,6 +243,10 @@ p {
     border-bottom-left-radius: 5.348vw;
 }
 
+.image-line {
+    display: none;
+}
+
 #line {
     display: none;
 }
@@ -583,13 +587,20 @@ p {
         order: 1;
     }
 
+    .image-line {
+        display: flex;
+        /* align-items: center; */
+        /* justify-content: center; */
+        order: 2;
+    }
+    
+
     #line {
         display: block;
         height: 20.8333vw;
         margin-left: 1.8229vw;
         margin-right: 1.8229vw;
         top: 0;
-        order: 2;
     }
 
     .image-container-1 {
